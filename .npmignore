@@ -1,0 +1,11 @@
+.idea
+.d.ts/tests
+js/tests
+ts/tests
+ts/tsconfig.json
+ts/tslint.json
+.gitattributes
+.gitignore
+.npmignore
+gulpfile.js
+jest.config.js

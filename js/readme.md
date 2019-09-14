@@ -1,0 +1,1 @@
+This folder contains compiled JavaScript files for this project.

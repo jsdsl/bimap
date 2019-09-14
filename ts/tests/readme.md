@@ -1,0 +1,1 @@
+This folder contains TypeScript Jest/test files for this project.

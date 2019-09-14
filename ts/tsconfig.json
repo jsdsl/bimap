@@ -1,0 +1,72 @@
+{
+	
+	"compilerOptions": {
+		
+		// Specify module code generation for CommonJS.
+		"module": "commonjs",
+		
+		// Uses Node-style module resolution.
+		"moduleResolution": "node",
+		
+		// Allows interoperability between CommonJS and ES export/imports.
+		"esModuleInterop": true,
+		
+		// Compiles to ES6 JS.
+		"target": "es6",
+		
+		// Generates a JS --> TS source map for easier debugging.
+		"sourceMap": true,
+		
+		// Prevents the compiler from compiling down .ts files that contain errors.
+		"noEmitOnError": true,
+		
+		// Generate type/declaration files.
+		"declaration": true,
+		
+		// Compiles to the directory above this one just to keep everything better organized.
+		"outDir": "../js/",
+		
+		// Compiles .d.ts declaration files to a directory called '.d.ts' above this directory.
+		"declarationDir": "../.d.ts/",
+		
+		// Forces consistent letter casing when referencing the same file.
+		"forceConsistentCasingInFileNames": true,
+		
+		// Prevents functions from conditionally not returning a value (implicitly returning undefined).
+		"noImplicitReturns": true,
+		
+		// Prevents unused imports, private functions, properties, etc.
+		"noUnusedLocals": true,
+		
+		// Prevents the use of ambiguous ('any' typed/un-typed) 'this' calls.
+		"noImplicitThis": true,
+		
+		// Prevents switch statements that do not handle every use-case.
+		"noFallthroughCasesInSwitch": true,
+		
+		// Removes comments from compiled .js files.
+		"removeComments": true,
+		
+		// Prevents implied 'any' type (undeclared expression types).
+		"noImplicitAny": true,
+		
+		// Ensures that 'null' and 'undefined' are expressed as potential types in the type annotations of any
+		// expressions where such values might occur.
+		"strictNullChecks": true,
+		
+		// Ensures that relevant class properties are defined by the constructor (and not left undefined).
+		"strictPropertyInitialization": true,
+		
+		// More strictly checks function argument types to ensure that the values passed into any given function
+		// actually fulfill the requirements of the designated parameter types.
+		"strictFunctionTypes": true
+	
+	},
+	
+	"exclude": [
+		
+		"../node_modules"
+	
+	]
+	
+}

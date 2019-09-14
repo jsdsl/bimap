@@ -1,0 +1,33 @@
+{
+	"name": "<name>",
+	"version": "0.1.0",
+	"description": "<desc>",
+	"main": "js/main",
+	"types": ".d.ts/main",
+	"scripts": {
+		"build": "gulp rebuild",
+		"test": "gulp rebuild && jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/<github_org>/<base_name>.git"
+	},
+	"keywords": [],
+	"author": "Trevor Sears <trevorsears.main@gmail.com> (http://trevorsears.io/)",
+	"license": "GPL-3.0-or-later",
+	"bugs": {
+		"url": "https://github.com/<github_org>/<base_name>/issues"
+	},
+	"homepage": "https://github.com/<github_org>/<base_name>#readme",
+	"devDependencies": {
+		"typescript": "latest",
+		"tslint": "latest",
+		"@types/jest": "latest",
+		"del": "latest",
+		"gulp": "latest",
+		"gulp-sourcemaps": "latest",
+		"gulp-typescript": "latest",
+		"gulp-uglify-es": "latest",
+		"jest": "latest"
+	}
+}

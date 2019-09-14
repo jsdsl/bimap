@@ -1,0 +1,141 @@
+{
+	
+	"extends": "tslint:recommended",
+	
+	"rules": {
+		
+		"adjacent-overload-signatures": false,
+		
+		"align": [true,
+			"elements",
+			"members",
+			"statements"
+		],
+		
+		"arrow-parens": [true, "ban-single-arg-parens"],
+		
+		"class-name": true,
+		
+		"comment-format": [true, "check-space"],
+		
+		"completed-docs": [false,
+			"classes",
+			"enums",
+			"enum-members",
+			"functions",
+			"interfaces",
+			"methods",
+			"namespaces",
+			"properties",
+			"types",
+			"variables"
+		],
+		
+		"curly": [true, "ignore-same-line"],
+		
+		"eofline": false,
+		
+		"forin": false,
+		
+		"indent": [true, "tabs", 4],
+		
+		"interface-name": [true, "never-prefix"],
+		
+		"interface-over-type-literal": false,
+		
+		"max-classes-per-file": false,
+		
+		"max-line-length": false,
+		
+		"member-access": [true, "check-accessor", "check-constructor", "check-parameter-property"],
+		
+		"member-ordering": false,
+		
+		"new-parens": false,
+		
+		"no-console": false,
+		
+		"no-empty-interface": false,
+		
+		"no-namespace": false,
+		
+		"no-parameter-properties": true,
+		
+		"no-string-literal": false,
+		
+		"no-trailing-whitespace": [true, "ignore-blank-lines", "ignore-comments", "ignore-jsdoc"],
+		
+		"no-unused-expression": false,
+		
+		"no-var-keyword": true,
+		
+		"no-void-expression": [true, "ignore-arrow-function-shorthand"],
+		
+		"object-literal-sort-keys": [true, "match-declaration-order"],
+		
+		"only-arrow-functions": true,
+		
+		"ordered-imports": false,
+		
+		"prefer-const": false,
+		
+		"quotemark": [true, "double"],
+		
+		"radix": false,
+		
+		"semicolon": [true, "always"],
+		
+		"space-within-parens": [false],
+		
+		"trailing-comma": false,
+		
+		"triple-equals": [true, "allow-null-check", "allow-undefined-check"],
+		
+		"typedef": [true,
+			"call-signature",
+			"arrow-call-signature",
+			"parameter",
+			"arrow-parameter",
+			"property-declaration",
+			"variable-declaration",
+			"member-variable-declaration",
+			"object-destructuring",
+			"array-destructuring"
+		],
+		
+		"typedef-whitespace": [true, {
+				"call-signature": "nospace",
+				"index-signature": "nospace",
+				"parameter": "nospace",
+				"property-declaration": "nospace",
+				"variable-declaration": "nospace"
+			}, {
+				"call-signature": "onespace",
+				"index-signature": "onespace",
+				"parameter": "onespace",
+				"property-declaration": "space",
+				"variable-declaration": "onespace"
+			}
+		],
+		
+		"typeof-compare": true,
+		
+		"use-isnan": true,
+		
+		"whitespace": [true,
+			"check-branch",
+			"check-decl",
+			"check-operator",
+			"check-operator",
+			"check-module",
+			"check-separator",
+			"check-rest-spread",
+			"check-type",
+			"check-typecast",
+			"check-type-operator",
+			"check-preblock"
+		]
+		
+	}
+	
+}
