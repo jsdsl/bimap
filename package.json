@@ -2,6 +2,9 @@
 	"name": "@jsdsl/bimap",
 	"version": "0.1.0",
 	"description": "A bidirectional map written in TypeScript/JavaScript.",
+	"publishConfig": {
+		"access": "public"
+	},
 	"main": "js/main",
 	"types": ".d.ts/main",
 	"scripts": {
