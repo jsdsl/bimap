@@ -552,7 +552,7 @@ to the start of each source file to most effectively state the exclusion of warr
 and each file should have at least the “copyright” line and a pointer to
 where the full notice is found.
 
-    <name> - <desc>
+    @jsdsl/bimap - A bidirectional map written in TypeScript/JavaScript.
     Copyright (C) 2019 Trevor Sears
 
     This program is free software: you can redistribute it and/or modify
@@ -573,7 +573,7 @@ Also add information on how to contact you by electronic and paper mail.
 If the program does terminal interaction, make it output a short notice like this
 when it starts in an interactive mode:
 
-    <name> Copyright (C) 2019 Trevor Sears
+    @jsdsl/bimap Copyright (C) 2019 Trevor Sears
     This program comes with ABSOLUTELY NO WARRANTY; for details type 'show w'.
     This is free software, and you are welcome to redistribute it
     under certain conditions; type 'show c' for details.

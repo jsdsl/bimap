@@ -1,18 +1,18 @@
-# JavaScript Module Template
-This repository serves as an easy-start template for JavaScript/TypeScript NPM packages. 
+# JSDSL - BiMap
+A bidirectional map written in TypeScript/JavaScript.
 
-Simply clone the repository into a directory:
+### [Find @jsdsl/bimap on NPM.](https://www.npmjs.com/package/@jsdsl/bimap)
 
-```bash
-$ git clone git@github.com:T99/js-module-template.git my-new-project
+## Installation
+Install from NPM with
+```
+$ npm install --save @jsdsl/bimap
 ```
 
-And then run the init script:
+## Basic Usage
+Basic usage instructions here.
 
-```bash
-$ ./init.sh
-```
+## License
+@jsdsl/bimap is made available under the GNU General Public License v3.
 
-The init script will interactively prompt you for package information and then automatically build the package, correct and fill-in package information, and install the specified NPM packages already included in the provided `package.json`.
-
-And that's it! Your project is ready to go.
+Copyright (C) 2019 Trevor Sears

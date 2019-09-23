@@ -1,7 +1,7 @@
 /*
  *	Created by Trevor Sears <trevorsears.main@gmail.com>.
  *	10:53 PM -- June 11th, 2019.
- *	Project: <name>
+ *	Project: @jsdsl/bimap
  */
 
 /**
@@ -12,4 +12,4 @@
  * @since v0.1.0
  */
 
-// export { ClassName } from "./class-location";
+export { BiMap } from "./bi-map";

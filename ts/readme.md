@@ -1,1 +1,0 @@
-This folder contains TypeScript files for this project.
