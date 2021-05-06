@@ -96,56 +96,56 @@ describe("Per-method Tests", () => {
 		});
 	
 	});
-	
-	describe("#getFromValue", () => {
-	
-		test("", () => {
+
+	describe("#removeByKey", () => {
 		
-		
-		
+		test("Regular key --> returns deleted value.", () => {		
+			bimap = new BiMap<string, number>();
+			bimap.set("one", 1);
+
+			expect(bimap.hasKey("one")).toBe(true);
+			expect(bimap.hasKey("two")).toBe(false);
+			expect(bimap.removeByKey("one")).toBe(1);
+			expect(bimap.hasKey("one")).toBe(false);
+			expect(bimap.getFromKey("one")).toBeUndefined();
 		});
 	
 	});
-	
-	describe("#setFromKey", () => {
-	
-	
-	
-	});
-	
-	describe("#setFromValue", () => {
-	
-	
-	
-	});
-	
-	describe("#removeByKey", () => {
-	
-	
-	
-	});
-	
+
 	describe("#removeByValue", () => {
-	
-	
-	
-	});
-	
-	describe("#hasKey", () => {
-	
-	
-	
-	});
-	
-	describe("#hasValue", () => {
-	
-	
+		
+		test("Regular key --> returns deleted value.", () => {		
+			bimap = new BiMap<string, number>();
+			bimap.set("one", 1);
+
+			expect(bimap.hasValue(1)).toBe(true);
+			expect(bimap.hasValue(2)).toBe(false);
+			expect(bimap.removeByValue(1)).toBe("one");
+			expect(bimap.hasValue(1)).toBe(false);
+			expect(bimap.getFromValue(1)).toBeUndefined();
+		});
 	
 	});
-	
+
 	describe("#clear", () => {
-	
-	
+		
+		test("nukes all assoc", () => {		
+			bimap = new BiMap<string, number>();
+			bimap.set("one", 1);
+			bimap.set("two", 2);
+
+			expect(bimap.hasKey("one")).toBe(true);
+			expect(bimap.hasKey("two")).toBe(true);
+			expect(bimap.hasValue(1)).toBe(true);
+			expect(bimap.hasValue(2)).toBe(true);
+
+			bimap.clear()
+
+			expect(bimap.hasKey("one")).toBe(false);
+			expect(bimap.hasKey("two")).toBe(false);
+			expect(bimap.hasValue(1)).toBe(false);
+			expect(bimap.hasValue(2)).toBe(false);
+		});
 	
 	});
 	
