@@ -1,7 +1,7 @@
 {
 	"name": "@jsdsl/bimap",
-	"version": "0.1.1",
-	"description": "A bidirectional map written in TypeScript/JavaScript.",
+	"version": "1.0.0",
+	"description": "A bidirectional map written in TypeScript.",
 	"publishConfig": {
 		"access": "public"
 	},
@@ -18,11 +18,18 @@
 	"keywords": [
 		"map",
 		"bimap",
-		"bidirectional",
+		"bi-map",
+		"bidirectional-map",
+		"two-way-map",
+		"reversible-map",
+		"dictionary",
+		"bidirectional-dictionary",
+		"reversible-dictionary",
+		"data-structure",
 		"adt",
-		"data-structure"
+		"typescript"
 	],
-	"author": "Trevor Sears <trevorsears.main@gmail.com> (http://trevorsears.io/)",
+	"author": "Trevor Sears <trevor@trevorsears.com> (https://trevorsears.com/)",
 	"license": "GPL-3.0-or-later",
 	"bugs": {
 		"url": "https://github.com/jsdsl/bimap/issues"
